@@ -1,0 +1,43 @@
+Random Forest 
+
+52849 samples
+   37 predictor
+    2 classes: 'C', 'F' 
+
+No pre-processing
+Resampling: Cross-Validated (5 fold) 
+Summary of sample sizes: 42279, 42279, 42280, 42279, 42279 
+Resampling results across tuning parameters:
+
+  mtry  Accuracy   Kappa      Accuracy SD  Kappa SD   
+   2    0.7831745  0.5269188  0.006326593  0.015410862
+  19    0.8093435  0.6003917  0.003936831  0.009229059
+  37    0.8015855  0.5843110  0.003541939  0.008337868
+
+Accuracy was used to select the optimal model using  the largest value.
+The final value used for the model was mtry = 19. 
+rf variable importance
+
+  only 20 most important variables shown (out of 37)
+
+         Importance
+MARSTAT      144.07
+DSMCRIT      122.08
+PSYPROB      101.13
+EMPLOY        73.38
+PRIMPAY       71.51
+SERVSETA      69.38
+DETCRIM       68.34
+LIVARAG       60.20
+PSOURCE       45.77
+HLTHINS       45.38
+ETHNIC        44.51
+DETNLF        43.23
+NOPRIOR       43.18
+RACE          37.27
+ALCDRUG       33.94
+MARFLG        33.00
+METHUSE       32.93
+HERFLG        25.51
+ALCFLG        23.36
+NUMSUBS       20.70

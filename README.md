@@ -1,5 +1,5 @@
 # -VA-VetRisk
-VA Vet Risk assessment prediction models using ICPSR 35037 dataset
+#VA Vet Risk assessment models using ICPSR 35037 dataset
 
 Disclaimer: Due to very poor datasets provided (no outcomes, some outcomes but very few patients, etc.) this risk assessment models are not tied to a particular outcome (i.e suicide), but rather a set out potential outcomes
 which one of them might (probably) be suicide
